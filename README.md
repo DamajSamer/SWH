@@ -17,10 +17,7 @@ According to some algorithm criteria:
 * SWH can reach the same/better characteristics of some largest known graphs,but the algo generates these graphs much faster:
 https://en.wikipedia.org/wiki/Table_of_the_largest_known_graphs_of_a_given_diameter_and_maximal_degree.
 
-For more informations, please contact:
-Samer DAMAJ
-samer@damaj.fr
-http://www.damaj.fr
+For more informations, please contact: Samer DAMAJ, samer@damaj.fr, http://www.damaj.fr
 
 Reference: https://ieeexplore.ieee.org/document/5291366
 
