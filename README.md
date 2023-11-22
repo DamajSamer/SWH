@@ -34,7 +34,7 @@ https://en.wikipedia.org/wiki/Table_of_the_largest_known_graphs_of_a_given_diame
 
 Some excellent results have been made by using an HPC computer.
 
-##  SWH for 802.15.4
+##  SWH for 802.15.4 radio
 Figure 1 shows a full SWH (63,1) mesh netwok with 64 nodes for a decentralize mesh 802.15.4 application used a Si44XX Radio chip.
 
 ![swh][1st_img]
@@ -46,16 +46,24 @@ Figure 2 shows a SWH netwok with 10 000 nodes and 4 links by node for a private 
 ![swh][2nd_img]
 **Figure 2 -** SWH network with 10 000 nodes
 
-## SWH for mesh Wi-Fi
+## SWH for mesh Wi-Fi (application 1)
 Figure 3 shows a small SWH network with 16 nodes for a decentralize mesh 802.11 Wi-Fi application and a custom HWMP stack used a Murata chip.
 
 ![swh][3rd_img]
 **Figure 3 -** SWH network with 16 nodes
 
+## SWH for mesh Wi-Fi (application 2)
 Figure 4 shows a small SWH network with 16 nodes for a decentralize mesh 802.11 Wi-Fi application and a custom HWMP stack used a TI chip.
 
 ![swh][4th_img]
-**Figure 3 -** SWH network with 16 nodes
+**Figure 4 -** SWH network with 16 nodes
+
+##  SWH for 802.15.4 radio
+
+Figure 5 shows a SWH network with 512 nodes for a decentralize mesh 802.15.4 application used a Si44XX Radio chip.
+
+![swh][5th_img]
+**Figure 5 -** SWH network with 512 nodes
 
 
 ## References
@@ -77,6 +85,6 @@ Copyright ©, 2022-2023
 [2nd_img]: img/swh_10000_4.png?raw=true
 [3rd_img]: img/swh_16_2_application1.png?raw=true
 [4th_img]: img/swh_16_2_application2.png?raw=true
-
+[5th_img]: img/swh_512.png?raw=true
 
 
