@@ -10,6 +10,14 @@ The Small world Heuristic or SWH G(d,k) is a smart algorithm process to generate
 * The -maximum distance- between two nodes is a Diameter denoted (k).
 * What is a distance between two nodes? it is the length of longest shortest path.
 
+## WHAT IS SWH?
+SWH is an autonomous topology based on the Small World Network with differents features. 
+It is an embedded graph and topology layer that is implemented on top of an existing radio layer such as 802.15.4, 802.11 and others. 
+
+Depending on requirements and use cases (e.g. centralized, decentralized,...) and based on input parameters, SWH calculates the diameter, the shortest path and the maximum hop number to be reached for a total number of nodes on a field topology. 
+
+The algorithm takes into account criterias depending on the application; eg. RSSI, mpath, link cost in BLE/WIFi/WIFI Mesh/e.t.c to determine the maximum number of hop with diameter and shortest path to reach for a number of nodes.
+
 ## SWH CRITERIAS
 
 According to an algorithm criterias, like a custom diameter calculation and nodes process generator, SWH(d,k) is a full mesh topology.
