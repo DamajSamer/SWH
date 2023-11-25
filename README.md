@@ -2,30 +2,30 @@
 Small-World Heuristic - a Full mesh network
 
 ## INTRODUCTION
-The Small world Heuristic or SWH G(d,k) is a smart algorithm process to generate differents connected graphs.
+The Small world Heuristic or SWH G(d,k) is a smart algorithm process to generate different connected graphs.
 
-* What is a graph? Graph or Network diagram show interconnections between a set of entities.
+* What is a graph? Graph or Network diagram shows interconnections between a set of entities.
 * What is an entity? entity is represented by a Node or vertice, e.g sensor.
 * Connections between nodes are represented through links or edges or degree denoted (d).
 * The -maximum distance- between two nodes is a Diameter denoted (k).
 * What is a distance between two nodes? it is the length of longest shortest path.
 
 ## WHAT IS SWH?
-SWH is an autonomous topology based on the Small World Network with differents features. 
+SWH is an autonomous topology based on the Small World Network with different features.
 It is an embedded graph and topology layer that is implemented on top of an existing radio layer such as 802.15.4, 802.11 and others. 
 
-Depending on requirements and use cases (e.g. centralized, decentralized,...) and based on input parameters, SWH calculates the diameter, the shortest path and the maximum hop number to be reached for a total number of nodes on a field topology. 
+Depending on requirements, use cases (e.g. centralized, decentralized,...) and based on input parameters, SWH calculates the diameter, the shortest path and the maximum hop number to be reached for a number of nodes on a field topology.
 
-The algorithm takes into account criterias depending on the application; eg. RSSI, mpath, link cost in BLE/WIFi/WIFI Mesh/e.t.c to determine the maximum number of hop with diameter and shortest path to reach for a number of nodes.
+The algorithm takes into account criterias depending on the application; eg. RSSI, mpath, link cost in BLE/WIFi/WIFI Mesh/Zigbee/e.t.c to determine the maximum number of hop with diameter and shortest path to reach for a number of nodes.
 
 ## SWH CRITERIAS
 
-According to an algorithm criterias, like a custom diameter calculation and nodes process generator, SWH(d,k) is a full mesh topology.
+According to the algorithm criteria, like a custom diameter calculation and nodes process generator, SWH(d,k) is a full mesh topology.
 * small mesh graphs
 * medium mesh graphs
 * large mesh graphs
   
-According to a smart input criteria, SWH(d,k) can change its characteristics and can reach:
+According to the smart input criteria, SWH(d,k) can change its characteristics and can reach:
 * Torus and Hypercube networks
 * de Bruijn graph
 
@@ -107,5 +107,3 @@ Copyright ©, 2022-2023
 [3rd_img]: img/swh_16_2_application1.png?raw=true
 [4th_img]: img/swh_16_2_application2.png?raw=true
 [5th_img]: img/swh_512.png?raw=true
-
-
